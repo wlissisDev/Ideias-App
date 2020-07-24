@@ -1,0 +1,28 @@
+ul li {
+    cursor: pointer;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2 {
+    cursor: pointer;
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div#app{
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+
+    background-color: red;
+}
+
+
+div.none {
+    display: none;
+}

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #7159c1;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #ffffffaa;
+
+    font-size: 2rem;
+}
+
+nav#tree {
+    margin-top: 45px;
+
+    max-width: 300px;
+}
+
+nav#tree ul {
+    padding-left: 16px;
+}
+
+nav#tree li {
+    list-style: outside;
+
+    margin-top: 2px;
+}
+nav#tree li.has-children {
+    cursor: pointer;
+    position: relative;
+}
+
+nav#tree li.has-children:before {
+    color: white;
+    position: absolute;
+    font-size: 26px;
+    right: 15px;
+}
+
+li > ul {
+    display: none;
+}
+
+li.open > ul{
+    display: block;
+}
+
+nav#tree a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
